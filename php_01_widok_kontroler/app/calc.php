@@ -28,8 +28,8 @@ if ( $kwota == "") {
 if ( $lata == "") {
 	$messages [] = 'Nie podano na ile lat';
 }
-if ( $lata == "") {
-	$messages [] = 'Nie podano Oprocentowania';
+if ( $oprocentowanie == "") {
+	$messages [] = 'Nie podano oprocentowania';
 }
 
 
