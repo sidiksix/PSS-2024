@@ -38,7 +38,7 @@ if ( $oprocentowanie == "") {
 }
 if (count ( $messages ) != 0) return false;
 	
-	// sprawdzenie, czy $kwota i $y są liczbami całkowitymi
+	// sprawdzenie, czy $kwota, $lata i $oprocentowanie są liczbami całkowitymi
 	if (! is_numeric( $kwota )) {
 		$messages [] = 'Pierwsza wartość nie jest liczbą całkowitą';
 	}
